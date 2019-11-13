@@ -16,7 +16,7 @@ namespace Api.Nomad
                 var Content = args[0];
                 var Path = args[1];
 //                Console.WriteLine($"{Path}");
-               var root = ("./WORKDIR/" + Path);
+               var root = ("./" + Path);
 
                // This text is added only once to the file.
                 if (!File.Exists(root))
