@@ -16,7 +16,7 @@ namespace Api.Nomad
                 string Content = args[0];
                 string Path = args[1];
 //                Console.WriteLine($"{Path}");
-                string root = ("./" + Path);
+                string root = ("./../" + Path);
                // Console.Writeline(Content) ;
                 //Console.Writeline(Path) ;
                 //Console.Writeline(root) ;
