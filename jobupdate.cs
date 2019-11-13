@@ -13,13 +13,13 @@ namespace Api.Nomad
             {
 
                 
-                var Content = args[0];
-                var Path = args[1];
+                string Content = args[0];
+                string Path = args[1];
 //                Console.WriteLine($"{Path}");
-                var root = ("./" + Path);
-                Console.Writeline($"{Content}") ;
-                Console.Writeline($"{Path}") ;
-                Console.Writeline($"{root}") ;
+                string root = ("./" + Path);
+                Console.Writeline(Content) ;
+                Console.Writeline(Path) ;
+                Console.Writeline(root) ;
 
                // This text is added only once to the file.
                 if (!File.Exists(root))
