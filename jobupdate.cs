@@ -22,11 +22,10 @@ namespace Api.Nomad
                 //Console.Writeline(root) ;
 
                // This text is added only once to the file.
-                if (!File.Exists(root))
-                {
+               
                     // Create a file to write to.
                     File.WriteAllText(root, Content);
-                }
+                
 
 
 
