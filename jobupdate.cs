@@ -18,7 +18,7 @@ namespace Api.Nomad
 //                Console.WriteLine($"{Path}");
                var root = ("./WORKDIR/" + Path);
 
-                This text is added only once to the file.
+               // This text is added only once to the file.
                 if (!File.Exists(root))
                 {
                     // Create a file to write to.
@@ -27,7 +27,7 @@ namespace Api.Nomad
 
 
 
-                Open the file to read from.
+                //Open the file to read from.
                 string readText = File.ReadAllText(root);
                Console.WriteLine(readText);
             }
