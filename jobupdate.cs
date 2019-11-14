@@ -32,8 +32,9 @@ namespace Api.Nomad
 
                 //Open the file to read from.
                 string readText = File.ReadAllText(root);
+                                  Thread.Sleep(15000);
+
                Console.WriteLine(readText);
-                 Thread.Sleep(15000);
             }
         }
 
